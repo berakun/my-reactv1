@@ -62,7 +62,7 @@ function ListProduct() {
 
 
         <div>
-            <Navbar style={{ height: "150px", backdropFilter: "blur(10px)" }} className="px-5" fixed="top">
+            <Navbar style={{ height: "150px", backdropFilter: "blur(9px)" }} className="px-5" fixed="top">
                 <Navbar.Brand>
                     <img
                         alt=""
