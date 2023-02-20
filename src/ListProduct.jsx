@@ -62,13 +62,13 @@ function ListProduct() {
 
 
         <div>
-            <Navbar style={{ height: "150px", backdropFilter: "blur(9px)" }} className="px-5" fixed="top">
+            <Navbar className="px-5 tw-h-[50px] tw-backdrop-opacity-10 tw-backdrop-invert tw-bg-black/30" fixed="top">
                 <Navbar.Brand>
                     <img
                         alt=""
                         src={new URL("./assets/logo/logo2.png", import.meta.url).href}
-                        width="100"
-                        height="100"
+                        width="50"
+                        height="50"
                         className="d-inline-block align-top"
                     />
 
